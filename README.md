@@ -23,5 +23,5 @@ The code will be live-reload on http://localhost:1234/
 ## **Screenshots**
 
 **Main Page**
-![mealioo-recipes](./main-page.png)
+![mealioo-recipes](./main-page.PNG)
 
