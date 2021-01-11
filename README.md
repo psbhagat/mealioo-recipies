@@ -25,3 +25,9 @@ The code will be live-reload on http://localhost:1234/
 **Main Page**
 ![mealioo-recipes](./main-page.PNG)
 
+**Recipe Details Page**
+![mealioo-recipes](./recipe-details.PNG)
+
+**Subscribe and footer Page**
+![mealioo-recipes](./subscribe-and-footer.PNG)
+
