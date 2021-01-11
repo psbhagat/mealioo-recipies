@@ -12,6 +12,7 @@ Install node-sass as  a dev dependency: npm install node-sass --save-dev
 Install other dependencies from package.json: npm install
 
 ##**To Run**:  npm start
+
 The code will be live-reload on http://localhost:1234/
 
 ##**To enable live reload of sass changes**: npm run compile-sass
