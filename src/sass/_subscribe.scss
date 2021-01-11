@@ -1,0 +1,40 @@
+.subscribe-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./src/img/subscribe-background.jpg");
+    padding: 5rem;
+    margin-top: 10rem;
+}
+
+.subscribe-section .site-title {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.blogger-message {
+    float: left;
+    color: $theme-color-dark;
+    font-weight: 600;
+}
+
+.subscribe-input-form {
+    text-align: center;
+    color: $theme-color-dark;
+    font-weight: 600;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    button{
+        text-align: center;
+        margin-left: 0;
+        color: #000;
+    }
+}
+
+.subscribe-input input{
+    text-align: center;
+    border-radius: 2rem;
+    border: 2px solid $theme-color-dark;
+    width: 60%;
+    margin-top: 1rem;
+}

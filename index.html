@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mealioo Food Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" <="" head="">
+    <script defer src="./src/js/controller.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Yellowtail&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header" id="header">
+            <div class="menu sticky">
+                <span><a href="#subscribe">Contact Us</a></span>
+                <span><a href="#subscribe">Subscribe</a></span>
+                <span><a id="recipe-list-menu" class="recipe-list-menu" href="#header">Recipes-List</a></span>
+            </div>
+            <div class="site-title">
+                Mealioo
+                <span>...Recipes for you...</span>
+            </div>
+            <hr>
+    </header>
+    <div class="loader"></div>
+    <section id="categories" class="hidden">
+        <div class="categories">
+            <div class="row">
+                <div class="recipes-panel">
+                </div>
+            </div>
+            <div class="row">
+                <ion-icon class="pagination pagination-arrow-left col-1-of-3" name="chevron-back-sharp"></ion-icon>
+                <ion-icon class="pagination pagination-arrow-right col-1-of-3" name="chevron-forward-sharp"></ion-icon>
+            </div>
+        </div>
+    </section>
+    <section id="recipe-detailsSection" class="hidden">
+        <div class="row">
+            <div class="recipe-details">
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="subscribe" class="subscribe-section">
+        <div class="row">
+            <div class="site-title">
+                Mealioo
+            </div>
+            <div class="blogger-message row">
+                <p class="message">
+                    Hello, my name is Priyanka!
+                    Welcome to my food blog! I am a food blogger and I love to cook and come up with unique recipes
+                    for
+                    everyone to enjoy.
+                    In this blog, you will find a list of vegetarian recipes which you can easily make at home.
+                    You can also follow me on the my social media links available below.
+                    Cheers!
+                </p>
+            </div>
+            <div class="subscribe-input-form row">
+                To get updated with latest recipes, do subscribe to our mailing list!
+                <div class="row subscribe-input">
+                    <input type="text" name="email" id="email" placeholder="Please enter Email ID" />
+                </div>
+                <div class="row">
+                    <button type="button" id="email-button">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="row">
+            <h4>This is just a sample food blog made for practice!</h4>
+            <h4>Thanks to <a href="https://www.themealdb.com/api.php">https://www.themealdb.com/api.php</a> for
+                providing
+                an awesome API to work with!</h4>
+            <div class="row social">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-google"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-youtube"></ion-icon>
+            </div>
+        </div>
+
+    </footer>
+</body>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+</html>

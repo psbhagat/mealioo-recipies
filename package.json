@@ -1,0 +1,19 @@
+{
+  "name": "mealioo-recipes",
+  "version": "1.0.0",
+  "description": "A webapp for finding recipes.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass src/sass/main.scss style.css -w",
+    "start": "parcel index.html"
+  },
+  "author": "psbhagat",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.32.2"
+  },
+  "dependencies": {}
+}

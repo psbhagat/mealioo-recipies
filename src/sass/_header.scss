@@ -1,0 +1,44 @@
+.menu {
+    height: 4rem;
+    width: 100%;
+    background-color: $theme-color-light;
+    font-weight: 600;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 9999;
+}
+
+.menu span {
+    float: right;
+    padding-top: 1rem;
+    padding-right: 5rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: $theme-color-dark;
+}
+
+.site-title {
+    font-family: 'Yellowtail', cursive;
+    font-size: 5rem;
+    padding-top: 5rem;
+    color: $theme-color-dark;
+    padding-left: 8rem;
+}
+
+.site-title span {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
+
+.header hr {
+    background-color: $theme-color-dark;
+    height: 0.1vh;
+    margin: 0 auto;
+    width: 100%;
+}
+
+

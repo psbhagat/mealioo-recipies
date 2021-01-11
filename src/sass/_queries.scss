@@ -1,0 +1,59 @@
+/* Small phones to small tablets: from 481px to 767px */
+@media (max-width: 767px) {
+    .menu span {
+        padding-right: 2rem;
+    }
+
+    .site-title {
+        padding-left: 2rem;
+    }
+
+    .recipes-panel h2 {
+        font-weight: 300;
+        font-size: 1rem;
+     }
+
+     .subscribe-input input{
+        width: 100%;
+    }
+
+    .subscribe-input-form {
+
+        button{
+            margin-left: -2rem;
+        }
+    }
+
+    .footer {
+        font-weight: 200;
+    }
+    
+    
+    .social {
+        font-size: 2rem;
+    }
+
+    .pagination {
+        font-size: 3rem;
+    }
+
+    .row {
+        [class^="col-"] {
+            &:not(:last-child) {
+                margin-right: $gutter-horizontal/2;
+            }
+        }
+    }
+
+    .recipes-panel img {
+        padding: 0;
+    }
+
+    .recipes-panel {
+        padding: 1rem;
+        margin: 0 auto;
+        padding-left: 6rem;
+    }
+    
+
+}
